@@ -1,0 +1,16 @@
+{
+  "name": "reqres-js-tests",
+  "version": "1.0.0",
+  "description": "ReqRes API tests using Node.js, axios, mocha & chai without apiClient",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit --recursive tests --timeout 5000"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.12.2",
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2"
+  }
+}
